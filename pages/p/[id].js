@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 
 import fetch from "isomorphic-unfetch";
