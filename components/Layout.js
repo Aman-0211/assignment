@@ -5,6 +5,10 @@ const Layout = (props) => (
     <Head>
       <title>Movies</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta
+        http-equiv="Content-Security-Policy"
+        content="upgrade-insecure-requests"
+      />
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
