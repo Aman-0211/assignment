@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useReducer } from "react";
-import Layout from "./components/Layout";
-import MoviList from "./components/MoviList";
-import Header from "../pages/components/header";
-import { getMovies } from "../pages/action/movie";
+import Layout from "../components/Layout";
+import MoviList from "../components/MoviList";
+import Header from "../components/header";
+import { getMovies } from "../common/action/movie";
 import {
   GET_MOVIES_LIST_REQUEST,
   GET_MOVIES_LIST,
   GET_MOVIES_LIST_FAILER,
-} from "./constant";
-import { reducer, initialState } from "../pages/reducer/movies";
+} from "../common/action/constant";
+import { reducer, initialState } from "../common/action/reducer/movies";
 
 const Index = () => {
   const [value, setValue] = useState("batman");
