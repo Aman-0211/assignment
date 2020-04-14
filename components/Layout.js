@@ -3,7 +3,7 @@ import Head from "next/head";
 const Layout = (props) => (
   <div>
     <Head>
-      <title>Movies</title>
+      <title>Movies Aman</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         http-equiv="Content-Security-Policy"
